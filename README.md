@@ -2,7 +2,7 @@
 
 I'm dealing with a lot of sqlite databases. This code base help me to generate go structures with orm tags on the structre. 
 
-Though I can use this [JSON-to-GO](https://mholt.github.io/json-to-go/) tool to generate the tables, there are two manually steps I have to do:
+Though I can use this [JSON-to-GO](https://mholt.github.io/json-to-go/) tool to generate structures to represent the databbase tables , there are two manually steps I have to do:
 
 1. convert one of the table row data to json by something like [CSV to JSON](https://csvjson.com/), to generate a json out of one of the database row
 2. Paste the generated JSON string to [JSON-to-GO](https://mholt.github.io/json-to-go/), and copy the generated go structure code. I will get something like this 
