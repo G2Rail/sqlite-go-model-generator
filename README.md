@@ -12,7 +12,7 @@ Though I can use this [JSON-to-GO](https://mholt.github.io/json-to-go/) tool to 
   	  D string `json:"d"`
     }
   ```
-3. Add tags to each structure fields with something like ```gorm:"column:data"```. Then I can do db query/updating by simply using [ORM](github.com/jinzhu/gorm).
+3. Add tags to each structure fields with something like ```gorm:"column:data"```. Then I can do db query/updating by simply using [ORM](https://github.com/jinzhu/gorm).
 
 When there are tens of columns, adding orm tag is still a lot of error prone manually work. 
 
